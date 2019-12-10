@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weatherapp2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnHk_4IM3sb48JTbwfVk7RHcClyHgeRBA&libraries=places"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <div class="header">
+                <div class="icon-container">
+                    <canvas id="icon" width="100" height="100"></canvas>
+                </div>
+            </div>
+            <div class="content">
+                <div class="gen-info">
+                    <div class="status">Enter A Location</div>
+                    <div class="location">To Find the weather</div>
+                </div>
+                <div class="detail-section">
+                    <div class="detail">
+                        <div class="title">Wind</div>
+                        <div class="value">TBD</div>
+                    </div>
+                    <div class="detail">
+                            <div class="title">Wind</div>
+                            <div class="value">TBD</div>
+                        </div>
+                        <div class="detail">
+                                <div class="title">Wind</div>
+                                <div class="value">TBD</div>
+                            </div>
+                </div>
+                <div class="city-search-container">
+                    <input type="text" class="city-search" data-city-search placeholder="Enter Location">
+                </div>
+
+            </div>
+        </div>
+        <script src="app.js" async defer></script>
+        <a href="https://darksky.net/poweredby" class="darksky-logo">poweredby Dark Sky</a>
+    </body>
+</html>
